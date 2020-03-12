@@ -47,7 +47,7 @@ $(document).ready(function() {
   
   
     // for loop 
-    for (var hour = 8; hour <= 17; hour++) {
+    for (var hour = 9; hour <= 17; hour++) {
       // index for array to use from hour
       var index;
       
