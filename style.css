@@ -66,23 +66,27 @@
   }
   
   .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
+    background-color: darkturquoise;
+    color: linen;
+    border-left: 2px solid rgb(61, 153, 73);
+    border-radius: 0px 15px 15px 0px;
+    font-size: 1.5em;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 12px;
   }
   
   .saveIcon i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+  
   input {
     background: transparent;
     border: none;
     padding-left: 3px;
   }
-  
   
   
   
@@ -120,23 +124,12 @@
     padding-top: 10px;
   }
   
-  /* style container with daily plan */
+  
   .dailyPlan {
     color: black;  
     font-size: 12pt;
     height:100%;
     width: 100%;
-  }
-  
-  .saveIcon {
-    background-color: darkturquoise;
-    color: linen;
-    border-left: 2px solid rgb(61, 153, 73);
-    border-radius: 0px 15px 15px 0px;
-    font-size: 1.5em;
-    width: 100%;
-    height: 100%;
-    text-align: center;
   }
   
   

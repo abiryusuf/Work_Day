@@ -113,7 +113,7 @@ $(document).ready(function() {
       var $saveBtn = $('<i>');
       $saveBtn.attr('id',`saveid-${index}`);
       $saveBtn.attr('save-id',index);
-      $saveBtn.attr('class',"far fa-save saveIcon");
+      $saveBtn.attr('class',"far fa-save saveBtn");
       
       // add col width and row component to row
       $rowDiv.append($col1SaveDiv);
